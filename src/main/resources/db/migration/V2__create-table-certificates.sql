@@ -1,6 +1,6 @@
 create table certificates(
     id bigint not null auto_increment,
-    academy varchar(50) not null,
+    academyutil varchar(50) not null,
     type varchar(50) not null,
     name varchar(200) not null,
     linkcloud varchar(200) not null unique,

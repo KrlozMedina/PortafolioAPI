@@ -1,6 +1,6 @@
 package com.krlozmedina.portafolio.utils;
 
-public enum AcademyUtil {
+public enum Academyutil {
     Platzi,
     Alura
 }

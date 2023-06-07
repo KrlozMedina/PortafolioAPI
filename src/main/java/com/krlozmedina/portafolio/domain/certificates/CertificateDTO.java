@@ -1,6 +1,6 @@
 package com.krlozmedina.portafolio.domain.certificates;
 
-import com.krlozmedina.portafolio.utils.AcademyUtil;
+import com.krlozmedina.portafolio.utils.Academyutil;
 import com.krlozmedina.portafolio.utils.Category;
 import com.krlozmedina.portafolio.utils.Type;
 
@@ -8,7 +8,7 @@ import java.util.Date;
 
 public record CertificateDTO(
         Long id,
-        AcademyUtil academyUtil,
+        Academyutil academyutil,
         Type type,
         String name,
         String linkCloud,
@@ -19,7 +19,7 @@ public record CertificateDTO(
     public CertificateDTO(Certificate certificate) {
         this(
                 certificate.getId(),
-                certificate.getAcademyUtil(),
+                certificate.getAcademyutil(),
                 certificate.getType(),
                 certificate.getName(),
                 certificate.getLinkcloud(),
