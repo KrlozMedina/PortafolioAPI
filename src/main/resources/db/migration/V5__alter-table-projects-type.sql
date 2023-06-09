@@ -1,0 +1,1 @@
+alter table projects change type app varchar(20) not null;

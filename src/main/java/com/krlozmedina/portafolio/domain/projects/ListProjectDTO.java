@@ -1,13 +1,16 @@
 package com.krlozmedina.portafolio.domain.projects;
 
+import com.krlozmedina.portafolio.utils.App;
+
 public record ListProjectDTO(
         Long id,
         EnglishProjectDTO english,
         SpanishProjectDTO spanish,
-        String type,
-        String link,
+        App app,
+        String linkDeploy,
         String linkCode,
-        ThumbnailDTO thumbnail
+        ThumbnailDTO thumbnails,
+        StackDTO stack
 
 ) {
     public ListProjectDTO(Project project) {
@@ -15,10 +18,11 @@ public record ListProjectDTO(
                 project.getId(),
                 new EnglishProjectDTO(project),
                 new SpanishProjectDTO(project),
-                project.getType(),
+                project.getApp(),
                 project.getDeploy(),
                 project.getRepository(),
-                new ThumbnailDTO(project)
+                new ThumbnailDTO(project),
+                new StackDTO(project)
         );
     }
 }

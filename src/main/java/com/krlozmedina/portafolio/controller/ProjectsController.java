@@ -20,6 +20,6 @@ public class ProjectsController {
     @GetMapping
     @CrossOrigin(origins = "*")
     public ResponseEntity<Page<ListProjectDTO>> listProjects(Pageable pageable) {
-        return ResponseEntity.ok(projectRepository.findAll(pageable).map(ListProjectDTO::new));
+        return ResponseEntity.ok(projectRepository.findByActiveTrue(pageable).map(ListProjectDTO::new));
     }
 }

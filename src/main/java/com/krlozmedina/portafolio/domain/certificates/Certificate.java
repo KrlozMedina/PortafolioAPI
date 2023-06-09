@@ -1,6 +1,6 @@
 package com.krlozmedina.portafolio.domain.certificates;
 
-import com.krlozmedina.portafolio.utils.Academyutil;
+import com.krlozmedina.portafolio.utils.Academy;
 import com.krlozmedina.portafolio.utils.Category;
 import com.krlozmedina.portafolio.utils.Type;
 import jakarta.persistence.*;
@@ -20,7 +20,7 @@ public class Certificate {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Enumerated(EnumType.STRING)
-    private Academyutil academyutil;
+    private Academy academy;
     @Enumerated(EnumType.STRING)
     private Type type;
     private String name;
