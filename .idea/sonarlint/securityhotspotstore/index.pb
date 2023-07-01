@@ -3,8 +3,6 @@ s
 Csrc/main/java/com/krlozmedina/portafolio/PortafolioApplication.java,0/e/0ed9b4cc379cf0c481196dd212b27bda6ee5b454
 ‡
 Wsrc/main/java/com/krlozmedina/portafolio/domain/certificates/CertificateRepository.java,c/8/c87aeca8e21a566ca94c581a3cf5da380c996db0
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 h
 8src/main/java/com/krlozmedina/portafolio/utils/Type.java,a/c/ac319dee84380b1185596fa247eb6b275987b721
 l
@@ -25,3 +23,11 @@ i
 9src/main/java/com/krlozmedina/portafolio/utils/Cloud.java,3/9/395ea30b8cca4b287428c94a767188c2d92bc643
 f
 6src/main/java/com/krlozmedina/portafolio/utils/DB.java,e/1/e1a49460727c1728388cbdb8e5b891b9a40819ad
+i
+9src/main/java/com/krlozmedina/portafolio/utils/Front.java,9/f/9f340a6faed7441f9371833bf5fb72f67625d1f9
+
+Osrc/main/java/com/krlozmedina/portafolio/domain/projects/SpanishProjectDTO.java,d/5/d5ea2d385e34fff5f443e45329fb48b7e11fc1a7
+g
+7src/main/java/com/krlozmedina/portafolio/utils/App.java,2/8/2890eb654957146802c80b03d127868f700963a3
+
+Osrc/main/java/com/krlozmedina/portafolio/domain/projects/EnglishProjectDTO.java,7/9/792d40aa04e30eb3107c81d6c42d1ab75d09948d

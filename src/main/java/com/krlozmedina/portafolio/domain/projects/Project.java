@@ -37,4 +37,21 @@ public class Project {
     private DB db;
     @Enumerated(EnumType.STRING)
     private Cloud cloud;
+
+    public Project(DataRegisterProject dataRegisterProject){
+        this.titulo = dataRegisterProject.titulo();
+        this.title = dataRegisterProject.title();
+        this.descripcion = dataRegisterProject.descripcion();
+        this.description = dataRegisterProject.description();
+        this.app = dataRegisterProject.app();
+        this.deploy = dataRegisterProject.deploy();
+        this.repository = dataRegisterProject.repository();
+        this.image = dataRegisterProject.image();
+        this.active = true;
+        this.front = dataRegisterProject.front();
+        this.style = dataRegisterProject.style();
+        this.back = dataRegisterProject.back();
+        this.db = dataRegisterProject.db();
+        this.cloud = dataRegisterProject.cloud();
+    }
 }
