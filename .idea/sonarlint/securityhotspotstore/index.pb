@@ -1,6 +1,4 @@
 
-s
-Csrc/main/java/com/krlozmedina/portafolio/PortafolioApplication.java,0/e/0ed9b4cc379cf0c481196dd212b27bda6ee5b454
 ‡
 Wsrc/main/java/com/krlozmedina/portafolio/domain/certificates/CertificateRepository.java,c/8/c87aeca8e21a566ca94c581a3cf5da380c996db0
 h
@@ -11,8 +9,6 @@ l
 Msrc/main/java/com/krlozmedina/portafolio/domain/certificates/Certificate.java,6/a/6a3acf9ff71f9bea9b9e708741fcbd02fc74ca34
 k
 ;src/main/java/com/krlozmedina/portafolio/utils/Academy.java,b/5/b560501131f8316978d3f52dfdd163d0109975de
-
-Osrc/main/java/com/krlozmedina/portafolio/controller/CertificatesController.java,9/d/9d9b5cf8735dde735296cbc6907843c26805a57b
 €
 Psrc/main/java/com/krlozmedina/portafolio/domain/certificates/CertificateDTO.java,f/d/fdd208f51cb0c02ab8ac44fe7a88f5d550399fce
 h
@@ -31,3 +27,9 @@ g
 7src/main/java/com/krlozmedina/portafolio/utils/App.java,2/8/2890eb654957146802c80b03d127868f700963a3
 
 Osrc/main/java/com/krlozmedina/portafolio/domain/projects/EnglishProjectDTO.java,7/9/792d40aa04e30eb3107c81d6c42d1ab75d09948d
+z
+Jsrc/main/java/com/krlozmedina/portafolio/domain/projects/ThumbnailDTO.java,8/4/84a4c0add7adf5b8a6f35ff329d981b8b759c01f
+v
+Fsrc/main/java/com/krlozmedina/portafolio/domain/projects/StackDTO.java,6/9/6998bc3c1962778ea2b6aa34edd408e87d0c0e47
+|
+Lsrc/main/java/com/krlozmedina/portafolio/domain/projects/ListProjectDTO.java,c/9/c9748ee2d79bd9dfdee149ab2b0c2644492e9c7f
